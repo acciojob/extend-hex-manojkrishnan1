@@ -2,7 +2,7 @@ const extendHex = (shortHex) => {
   // write your code here
 	const str = shortHex.toLowerCase();
   let n = str.length;
-  let result = "";
+  let result = "#";
   for(let i=0;i<n;i++){
     if(str[i]=="#")
       continue;
